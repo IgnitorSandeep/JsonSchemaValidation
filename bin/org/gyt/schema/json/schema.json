@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "http://jsonschema.net/id",
+      "type": "integer"
+    },
+    "name": {
+      "id": "http://jsonschema.net/name",
+      "type": "string"
+    },
+    "price": {
+      "id": "http://jsonschema.net/price",
+      "type": "number"
+    },
+    "tags": {
+      "id": "http://jsonschema.net/tags",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://jsonschema.net/tags/0",
+          "type": "string"
+        },
+        {
+          "id": "http://jsonschema.net/tags/1",
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "price",
+    "tags"
+  ]
+}
