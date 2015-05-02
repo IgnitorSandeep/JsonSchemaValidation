@@ -5,11 +5,11 @@
   "properties": {
     "id": {
       "id": "http://jsonschema.net/id",
-      "type": "integer"
+      "type": "number"
     },
     "name": {
       "id": "http://jsonschema.net/name",
-      "type": "string"
+      "type": "number"
     },
     "price": {
       "id": "http://jsonschema.net/price",

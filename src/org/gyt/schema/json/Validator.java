@@ -44,7 +44,8 @@ public class Validator {
 
 		return report.isSuccess();
 	}
-
+	
+	@Deprecated
 	public boolean validateAsString(String actualJsonContent,String jsonSchema) throws JsonProcessingException, IOException, ProcessingException{
 
 		JsonNode actualJsonNode = Utils.loadResourceAsString(actualJsonContent);

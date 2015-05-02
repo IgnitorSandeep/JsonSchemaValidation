@@ -27,18 +27,18 @@ public class Main {
 		System.out.println("[RESULT] "+"isValid : "+isValid);
 		System.out.println();
 		
-		System.out.println("Validating Using Json Content As String");
-		System.out.println("++++++++++++++++++++++++++++++++++++++++++");
-		String actualJsonContent = Utils.readFile("F:\\Workspace\\JsonShemaValidation\\src\\org\\gyt\\schema\\json\\actual.json");
-		String jsonSchema =Utils.readFile("F:\\Workspace\\JsonShemaValidation\\src\\org\\gyt\\schema\\json\\schema.json") ;
-		System.out.println("Actual Json Content :");
-		System.out.println("*********************");
-		System.out.println(actualJsonContent);
-		System.out.println("Json Schema Content :");
-		System.out.println("*********************");
-		System.out.println(jsonSchema);
-		isValid = validator.validateAsString(actualJsonContent, jsonSchema);
-		System.out.println("[RESULT] "+"isValid : "+isValid);
+//		System.out.println("Validating Using Json Content As String");
+//		System.out.println("++++++++++++++++++++++++++++++++++++++++++");
+//		String actualJsonContent = Utils.readFile("F:\\Workspace\\JsonShemaValidation\\src\\org\\gyt\\schema\\json\\actual.json");
+//		String jsonSchema =Utils.readFile("F:\\Workspace\\JsonShemaValidation\\src\\org\\gyt\\schema\\json\\schema.json") ;
+//		System.out.println("Actual Json Content :");
+//		System.out.println("*********************");
+//		System.out.println(actualJsonContent);
+//		System.out.println("Json Schema Content :");
+//		System.out.println("*********************");
+//		System.out.println(jsonSchema);
+//		isValid = validator.validateAsString(actualJsonContent, jsonSchema);
+//		System.out.println("[RESULT] "+"isValid : "+isValid);
 		
 		
 	}
